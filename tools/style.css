@@ -1,0 +1,25 @@
+/*
+Theme Name:luli_aprende_ingles
+Author: gemes
+Description: Sample web site for to learn english
+version: 1.0.0
+*/
+/* para manupular todo el body */
+body {
+    padding: 0;
+    margin: 0    
+}
+
+.hero-cta {
+    margin-top:50px;
+}
+/* para mover la ubicacion de los iconos  */
+.elementor-view-stacked .elementor-icon {
+    position:relative;
+    top:-40px;
+}
+/* para cambiar el color de las comillas de testimonios */
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:before, .strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+    background: #445AB1 !important;
+    color: #445AB1 !important;
+}
